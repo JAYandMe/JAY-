@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 300px;
+            height: 300px;
+            /*添加渐变：渐变不是一个单一色，它产生的是图像，所以需要使用background*/
+            /*linear-gradient(方向，开始颜色 位置，颜色2 位置，颜色3 位置...);*/
+            /*方向：
+            to top:0deg
+            to right:90deg
+            to bottom:180deg --默认值
+            to left:270deg*/
+            background: linear-gradient(right,red 20%,green 20%,green 30% ,blue 30%,blue 50% ,blue);  /*起点是红色 终点是蓝色*/
+            background: -webkit-linear-gradient(right,red 20%,green 20%,green 30% ,blue 30%,blue 50% ,blue);  /*top变成起点  起点颜色为red*/
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>

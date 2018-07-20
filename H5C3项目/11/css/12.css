@@ -1,0 +1,268 @@
+.section1{
+    background:url('../../images/t1fpyqfltdxxaiulhh-990-600.png') no-repeat center bottom;
+}
+.section2{
+    background:url('../../images/t1zdgpfi8exxca6rfn-2000-600.png') no-repeat center bottom;
+}
+.section3{
+    background: #ef674d!important;
+}
+.section4{
+    background:url('../../images/t1iresfnxaxxca6rfn-2000-600.png') no-repeat center center;
+}
+.section5{
+    background:url('../../images/t1yisqfa4exxa3gmkg-2000-1500.png');
+}
+.section6{
+    background:url('../../images/t1dvj.fn0gxxb0_fua-2500-600.png') no-repeat 25% 100%;
+}
+.section7{
+    background: url('../../images/t1wf1tfctaxxa3gmkg-2000-1500.png') no-repeat 50% 100%;
+}
+.section8{
+    background:url('../../images/ksgw.png');
+}
+
+#fp-nav ul li a span {
+    background: #f40 !important;
+}
+
+
+
+/*第一屏*/
+
+.section1 .img1{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    animation:fly1 3s infinite;
+}
+.section1 .img2{
+    position: absolute;
+    bottom:335px;
+    left: 50%;
+    margin-left:-200px;
+    animation:fly2 2s infinite;
+}
+.section1 .img3{
+    position: absolute;
+    bottom:150px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+@keyframes fly1 {
+    0%{
+        top:10%;
+    }
+    50%{
+        top:20%
+    }
+    100%{
+        top:10%;
+    }
+}
+@keyframes fly2 {
+    0%{
+        bottom:335px;
+    }
+    50%{
+        bottom:360px;
+    }
+    100%{
+        bottom:335px;
+    }
+}
+
+/*第二屏*/
+.section2 {
+    z-index:2;
+}
+.section2 .box{
+    width: 990px;
+    height: 500px;
+    position: absolute;
+    bottom:0px;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+.section2 .box .search{
+    position: absolute;
+    right:-30px;
+    bottom:270px;
+    background:url('../../images/search.png') no-repeat;
+    height: 45px;
+    width: 222px;
+    z-index:22;
+    display: none;
+}
+
+.section2 .box .search .img1{
+    position: absolute;
+    right:35px;
+    bottom:8px;
+    opacity: 0;
+}
+
+.section2 .box .img2{
+    position: absolute;
+    right:270px;
+    bottom:217px;
+    display: none;
+    height: 100px;
+}
+.section2 .box .img3{
+    position: absolute;
+    right:370px;
+    bottom:270px;
+    display: none;
+}
+
+/*动画沙发*/
+.section2 .box .img4{
+     position: absolute;
+     left: 395px;
+     bottom: 348px;
+     width: 100px;
+     display: none;
+     z-index: 23;
+ }
+.section2 .box .cover{
+    position: absolute;
+    left: 395px;
+    bottom: 348px;
+    width: 100px;
+    height: 80px;
+    opacity: 0;
+    z-index: 23;
+    background-color: #fff;
+}
+/*标题*/
+.section2 .imgTitlt{
+      position: absolute;
+      left: 50%;
+      bottom:550px;
+      transform: translate(-50%,0);
+  }
+.section2 .imgTitlt1a{
+    position: absolute;
+    left: 50%;
+    bottom:550px;
+    transform: translate(-50%,0);
+    opacity: 0;
+}
+
+
+
+/*第三屏*/
+.section3{
+    z-index:1;
+}
+.section3 main{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    bottom:50px;
+    left: 50%;
+    transform:translate(-50%,0);
+    background:url('../../images/main.png') no-repeat center center;
+}
+.section3 main .imgBox{
+    position: absolute;
+    bottom:0;
+    right: 10px;
+    width: 300px;
+    height: 250px;
+}
+
+.section3 main .imgBox .img1{
+    position: absolute;
+    top:0px;
+    left: 0;
+}
+.section3 main .img2{
+    position: absolute;
+    bottom:10px;
+}
+
+.section3 main .imgBox .img1a{
+    position: absolute;
+    top:0px;
+    left: 0;
+    opacity: 0;
+}
+.section3 main .img2a{
+    position: absolute;
+    bottom:10px;
+    opacity: 0;
+}
+
+
+
+.section3 main .img4{
+     position: absolute;
+     bottom:200px;
+     left:115px;
+     display: none;
+ }
+.section3 main .img4a{
+    position: absolute;
+    bottom:200px;
+    left:115px;
+    display: none;
+    z-index:33
+}
+
+
+/*第四屏*/
+
+.section4 .cloud{
+    position: absolute;
+    top:0;
+    left: 50%;
+    animation: cloud 60s infinite;
+}
+@keyframes cloud {
+    0%{
+        left:50%;
+    }
+    50%{
+        left:-10%;
+    }
+    100%{
+        left:50%;
+    }
+}
+
+.section4 .car{
+    position: absolute;
+    left: 50%;
+    bottom:50px;
+    width: 500px;
+    transform: translate(-50%,0);
+    z-index:50;
+}
+.section4 .car .img4a{
+    position: absolute;
+    left: 50%;
+    bottom:200px;
+    transform: translate(-50%,0);
+    z-index:-1;
+    display: none;
+}
+
+
+.section4 .address{
+    position: absolute;
+    left: 50%;
+    bottom:180px;
+    transform: translate(-50%,0);
+    display: none;
+}
+.section4 .address-top{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+
+}

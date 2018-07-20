@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  width: 90px;
+  height: 90px;
+  background-color: #ccc;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  margin-left: 10px;
+}
+ul li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: red;
+}
+ul:nth-child(2):li {
+  justify-content: space-around;
+  flex-direction: column;
+}
